@@ -1,0 +1,36 @@
+*{
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    background-color:darkgray;
+    text-align: center;
+
+}
+.cabecalho ul {
+    background-color: aliceblue;
+
+}
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+
+}
+nav a{
+    text-decoration: none;
+}
+.espaçamento{
+    padding-left: 10px;
+    display: inline-block;
+    text-align: center;
+}
+table {
+    float: right;
+    margin-right: 30px;
+}
+th{
+    background-color: aliceblue;
+}
+td{
+   border-bottom: 1px solid black;
+}
