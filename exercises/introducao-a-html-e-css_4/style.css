@@ -34,3 +34,9 @@ th{
 td{
    border-bottom: 1px solid black;
 }
+footer{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
