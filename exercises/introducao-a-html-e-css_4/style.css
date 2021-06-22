@@ -11,18 +11,19 @@
     background-color: aliceblue;
 
 }
+
 ul li{
     display: inline-block;
-    margin-left: 50px;
-
+    padding-right: 100px;
 }
 nav a{
     text-decoration: none;
 }
 .espaçamento{
     padding-left: 10px;
-    display: inline-block;
     text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
 .vejaVideo{
     font-weight: bold;
@@ -31,7 +32,7 @@ nav a{
 }
 table {
     float: right;
-    margin-right: 30px;
+    margin-right: 200px;
 }
 th{
     background-color: aliceblue;
