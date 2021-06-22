@@ -24,6 +24,11 @@ nav a{
     display: inline-block;
     text-align: center;
 }
+.vejaVideo{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
 table {
     float: right;
     margin-right: 30px;
