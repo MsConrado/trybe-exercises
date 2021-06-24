@@ -122,12 +122,29 @@
 
 // Exercício 9
 
-let a = 10;
-let b = 4;
-let c = 10;
+// let a = 10;
+// let b = 4;
+// let c = 11;
  
-if (a % 2 === 1 || b % 2 === 1 || c % 2 === 1){
-  console.log(true)
+// if (a % 2 === 1 || b % 2 === 1 || c % 2 === 1){
+//   console.log(true)
+// } else {
+//   console.log(false)
+// }
+
+// Exercício 10
+
+let compra = 1;
+let venda = 3;
+
+if(compra >= 0 && venda >= 0){
+  let impostoCompra = compra * 0.2;
+  let valorTotalCompra = impostoCompra + compra;
+  let lucroVenda = venda - valorTotalCompra;
+  console.log('A empresa vai ter ' + lucroVenda * 1000 + ' de lucro.')
 } else {
-  console.log(false)
+  console.log('ERRO');
 }
+
+
+
