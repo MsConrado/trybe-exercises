@@ -32,12 +32,31 @@
 // }
 
 // Exercício 4
-let valor = 10;
+// let valor = 10;
 
-if(valor > 0){
-  console.log('positivo');
-} else if (valor < 0){
-  console.log('negativo');
+// if(valor > 0){
+//   console.log('positivo');
+// } else if (valor < 0){
+//   console.log('negativo');
+// } else {
+//   console.log('zero')
+// }
+
+// Exercício 5
+let anguloA = -10;
+let anguloB = 90;
+let anguloC = 80;
+
+let somaAngulo = anguloA + anguloB + anguloC;
+
+let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0
+
+if(angulosPositivos){
+  if(somaAngulo === 180){
+    console.log(true);
+  } else {
+    console.log(false);
+  }
 } else {
-  console.log('zero')
+  console.log('ERRO')
 }
