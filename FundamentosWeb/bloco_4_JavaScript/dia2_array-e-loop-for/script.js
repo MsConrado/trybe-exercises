@@ -52,6 +52,19 @@
 
 // console.log(maior)
 
+// 6
+
+// let impar = 0
+
+// for(let index = 0; index < numbers.length; index += 1){
+//   if((numbers[index] % 2) === 1){
+//     impar += 1;
+//   }
+// } 
+// console.log(impar)
+
+// 7
+
 // let menor = numbers[0]
 
 // for(let num of numbers){
@@ -61,3 +74,21 @@
 // }
 
 // console.log(menor)
+
+// 8
+
+let começo = 0
+let fim = 25
+let array = []
+for(let index = começo; index <= fim; index += 1){
+ array.push(index);
+}
+// console.log(array)
+
+// 9 
+
+for(let index1 = 0; index1 < array.length; index1 += 1){
+  console.log(array[index1] / 2);
+
+}
+
