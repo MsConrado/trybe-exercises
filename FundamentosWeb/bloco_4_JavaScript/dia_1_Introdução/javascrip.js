@@ -90,20 +90,44 @@
 
 // Exercício 7
 
-let porcentagem = 50;
+// let porcentagem = 50;
 
-if(porcentagem > 100 || porcentagem < 0){
-  console.log('ERRO')
-} else if (porcentagem >= 90){
-  console.log('A');
-} else if(porcentagem >= 80){
-  console.log('B');
-}else if(porcentagem >= 70){
-  console.log('C');
-}else if(porcentagem >= 60){
-  console.log('D');
-}else if(porcentagem >= 50){
-  console.log('E');
-}else{
-  console.log('F');
+// if(porcentagem > 100 || porcentagem < 0){
+//   console.log('ERRO')
+// } else if (porcentagem >= 90){
+//   console.log('A');
+// } else if(porcentagem >= 80){
+//   console.log('B');
+// }else if(porcentagem >= 70){
+//   console.log('C');
+// }else if(porcentagem >= 60){
+//   console.log('D');
+// }else if(porcentagem >= 50){
+//   console.log('E');
+// }else{
+//   console.log('F');
+// }
+
+// Exercício 8
+
+// let a = 1;
+// let b = 4;
+// let c = 11;
+ 
+// if (a % 2 === 0 || b % 2 === 0 || c % 2 === 0){
+//   console.log('Tem pelo menos um nuemro par')
+// } else {
+//   console.log('Nenhum par entre os tres')
+// }
+
+// Exercício 9
+
+let a = 10;
+let b = 4;
+let c = 10;
+ 
+if (a % 2 === 1 || b % 2 === 1 || c % 2 === 1){
+  console.log(true)
+} else {
+  console.log(false)
 }
