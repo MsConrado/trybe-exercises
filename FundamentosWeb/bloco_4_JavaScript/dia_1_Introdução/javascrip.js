@@ -43,20 +43,47 @@
 // }
 
 // Exercício 5
-let anguloA = -10;
-let anguloB = 90;
-let anguloC = 80;
+// let anguloA = -10;
+// let anguloB = 90;
+// let anguloC = 80;
 
-let somaAngulo = anguloA + anguloB + anguloC;
+// let somaAngulo = anguloA + anguloB + anguloC;
 
-let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0
+// let angulosPositivos = anguloA > 0 && anguloB > 0 && anguloC > 0
 
-if(angulosPositivos){
-  if(somaAngulo === 180){
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-} else {
-  console.log('ERRO')
+// if(angulosPositivos){
+//   if(somaAngulo === 180){
+//     console.log(true);
+//   } else {
+//     console.log(false);
+//   }
+// } else {
+//   console.log('ERRO')
+// }
+
+// Exercício 6
+
+let peçaXadrez = 'rei'
+
+switch(peçaXadrez.toLowerCase()){
+  case 'rei':
+    console.log('horizontal, vertical ou diagonal');
+    break;
+  case 'rainha':
+    console.log('linha reta nas fileiras, colunas e diagonais');
+    break;
+  case 'torre':
+    console.log('linha reta nas colunas e fileiras');
+    break;
+  case 'peao':
+    console.log('uma casa pra frente');
+    break;
+  case 'bispo':
+    console.log('linhas retas nas diagonais');
+    break;
+  case 'cavalo':
+    console.log('formato de um L');
+    break;
+  default:
+    console.log('ERRO');
 }
