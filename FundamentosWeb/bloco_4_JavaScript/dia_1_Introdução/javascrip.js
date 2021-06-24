@@ -134,17 +134,47 @@
 
 // Exercício 10
 
-let compra = 1;
-let venda = 3;
+// let compra = 1;
+// let venda = 3;
 
-if(compra >= 0 && venda >= 0){
-  let impostoCompra = compra * 0.2;
-  let valorTotalCompra = impostoCompra + compra;
-  let lucroVenda = venda - valorTotalCompra;
-  console.log('A empresa vai ter ' + lucroVenda * 1000 + ' de lucro.')
-} else {
-  console.log('ERRO');
+// if(compra >= 0 && venda >= 0){
+//   let impostoCompra = compra * 0.2;
+//   let valorTotalCompra = impostoCompra + compra;
+//   let lucroVenda = venda - valorTotalCompra;
+//   console.log('A empresa vai ter ' + lucroVenda * 1000 + ' de lucro.')
+// } else {
+//   console.log('ERRO');
+// }
+
+//Exercício 11
+let salarioInss
+let impostoRenda
+
+let salarioBruto = 5000;
+
+if(salarioBruto <= 1556.94){
+  salarioInss = salarioBruto * 0.08;
+} else if(salarioBruto <= 2594.92){
+  salarioInss = salarioBruto * 0.09;
+} else if(salarioBruto <= 5189.82){
+  salarioInss = salarioBruto * 0.11
+} else{
+  salarioInss = 570.88
 }
 
+let baseSalario = salarioBruto - salarioInss;
 
+if(baseSalario <= 1903.98){
+  impostoRenda = baseSalario;
 
+} else if(baseSalario <= 2826.65){
+  impostoRenda = (baseSalario * 0.075) - 142.80;
+} else if(baseSalario <= 3751.05){
+  impostoRenda = (baseSalario * 0.15) - 354.80;
+} else if(baseSalario <= 466468){
+  impostoRenda = (baseSalario * 0.225)- 636.13;
+} else{
+  impostoRenda = (baseSalario * 0.275)- 869.36;
+}
+let salarioLiquido = baseSalario - impostoRenda;
+console.log(salarioLiquido)
