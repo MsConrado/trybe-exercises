@@ -63,27 +63,47 @@
 
 // Exercício 6
 
-let peçaXadrez = 'rei'
+// let peçaXadrez = 'rei'
 
-switch(peçaXadrez.toLowerCase()){
-  case 'rei':
-    console.log('horizontal, vertical ou diagonal');
-    break;
-  case 'rainha':
-    console.log('linha reta nas fileiras, colunas e diagonais');
-    break;
-  case 'torre':
-    console.log('linha reta nas colunas e fileiras');
-    break;
-  case 'peao':
-    console.log('uma casa pra frente');
-    break;
-  case 'bispo':
-    console.log('linhas retas nas diagonais');
-    break;
-  case 'cavalo':
-    console.log('formato de um L');
-    break;
-  default:
-    console.log('ERRO');
+// switch(peçaXadrez.toLowerCase()){
+//   case 'rei':
+//     console.log('horizontal, vertical ou diagonal');
+//     break;
+//   case 'rainha':
+//     console.log('linha reta nas fileiras, colunas e diagonais');
+//     break;
+//   case 'torre':
+//     console.log('linha reta nas colunas e fileiras');
+//     break;
+//   case 'peao':
+//     console.log('uma casa pra frente');
+//     break;
+//   case 'bispo':
+//     console.log('linhas retas nas diagonais');
+//     break;
+//   case 'cavalo':
+//     console.log('formato de um L');
+//     break;
+//   default:
+//     console.log('ERRO');
+// }
+
+// Exercício 7
+
+let porcentagem = 50;
+
+if(porcentagem > 100 || porcentagem < 0){
+  console.log('ERRO')
+} else if (porcentagem >= 90){
+  console.log('A');
+} else if(porcentagem >= 80){
+  console.log('B');
+}else if(porcentagem >= 70){
+  console.log('C');
+}else if(porcentagem >= 60){
+  console.log('D');
+}else if(porcentagem >= 50){
+  console.log('E');
+}else{
+  console.log('F');
 }
