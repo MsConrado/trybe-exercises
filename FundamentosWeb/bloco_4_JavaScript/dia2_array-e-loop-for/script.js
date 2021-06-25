@@ -77,18 +77,26 @@
 
 // 8
 
-let começo = 0
-let fim = 25
-let array = []
-for(let index = começo; index <= fim; index += 1){
- array.push(index);
+// let começo = 0;
+// let fim = 25;
+// let array = [];
+// for(let index = começo; index <= fim; index += 1){
+//  array.push(index);
+// }
+// // console.log(array)
+
+// // 9 
+
+// for(let index1 = 0; index1 < array.length; index1 += 1){
+//   console.log(array[index1] / 2);
+// }
+
+let estrela = '* '
+let espaco = ''
+for(let index = 0; index < 5; index += 1){
+  espaco += estrela;
+
+  for(let index = 0; index < 1; index += 1){
+    console.log(espaco)
+  }
 }
-// console.log(array)
-
-// 9 
-
-for(let index1 = 0; index1 < array.length; index1 += 1){
-  console.log(array[index1] / 2);
-
-}
-

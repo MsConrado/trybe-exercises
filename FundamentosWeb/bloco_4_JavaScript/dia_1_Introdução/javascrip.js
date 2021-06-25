@@ -90,7 +90,7 @@
 
 // Exercício 7
 
-// let porcentagem = 50;
+// let porcentagem = 50 ;
 
 // if(porcentagem > 100 || porcentagem < 0){
 //   console.log('ERRO')
