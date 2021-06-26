@@ -87,16 +87,6 @@
 
 // // 9 
 
-// for(let index1 = 0; index1 < array.length; index1 += 1){
-//   console.log(array[index1] / 2);
-// }
-
-let estrela = '* '
-let espaco = ''
-for(let index = 0; index < 5; index += 1){
-  espaco += estrela;
-
-  for(let index = 0; index < 1; index += 1){
-    console.log(espaco)
-  }
+for(let index1 = 0; index1 < array.length; index1 += 1){
+  console.log(array[index1] / 2);
 }
