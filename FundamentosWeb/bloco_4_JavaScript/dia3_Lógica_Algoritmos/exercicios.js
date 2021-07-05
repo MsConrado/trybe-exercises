@@ -37,6 +37,53 @@
 //   posisao -= 1;
 // }
 
+// let n = 5;
+// let asterisco = '*';
+// let espaco = ' ';
+// let conteudoLinha = '';
+
+// for(let linha = 1; linha <= n; linha += 1){
+//   for(let colunaLinha = 1; colunaLinha <= (n - linha); colunaLinha += 1){
+//     conteudoLinha += espaco;
+//   }
+//   for(let colunaAsterisco = n; colunaAsterisco > (n - linha); colunaAsterisco -= 1){
+//     conteudoLinha += asterisco;
+//   }
+//   console.log(conteudoLinha);
+//   conteudoLinha = '';
+// }
+
+// let n = 5;
+// let asterisco = '*';
+// let espaco = ' ';
+// let conteudoLinha = '';
+
+// for(let linha = 1; linha <= n; linha += 1){
+//   for(let colunaLinha = 1; colunaLinha <= (n - linha); colunaLinha += 1){
+//     conteudoLinha += espaco;
+//   }
+//   for(let colunaAsterisco = 1; colunaAsterisco <= linha; colunaAsterisco += 1){
+//     conteudoLinha += asterisco;
+//   }
+//   console.log(conteudoLinha);
+//   conteudoLinha = '';
+// }
+
+// let n = 5;
+// let asterisco = '*';
+// let espaco = ' ';
+
+// for(let linha = 1; linha <= n; linha += 1){
+//   let conteudoLinha = '';
+//   for(let colunaLinha = 1; colunaLinha <= (n - linha); colunaLinha += 1){
+//     conteudoLinha += espaco;
+//   }
+//   for(let colunaAsterisco = 1; colunaAsterisco <= linha; colunaAsterisco += 1){
+//     conteudoLinha += asterisco;
+//   }
+//   console.log(conteudoLinha);
+// }
+
 // 4
 
 // let n = 5
