@@ -11,13 +11,13 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 ### Fundamentos do Desenvolvimento Web
 
-[X] Bloco 01:  Unix & Bash 
+- [X] Bloco 01:  Unix & Bash 
 
-Bloco 02:  Git, GitHub e Internet 
+- [X] Bloco 02:  Git, GitHub e Internet 
 
-Bloco 03:  Introdução à HTML e CSS
+- [X] Bloco 03:  Introdução à HTML e CSS
 
-Bloco 04:  Introdução à JavaScript e Lógica de Programação
+- [X] Bloco 04:  Introdução à JavaScript e Lógica de Programação
 
 Bloco 05:  JavaScript: DOM, Eventos e Web Storage
 
