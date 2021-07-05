@@ -69,11 +69,17 @@ function corQuadrado() {
 
 //  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
   function modificar() {
-  document.getElementsByTagName('p')[0].innerText.toLocaleUpperCase()
+    for (let index = 0; index < document.getElementsByTagName('p').length; index += 1){
+      let resultado = document.getElementsByTagName('p')[index];
+      let resMaiusculo = resultado.innerText.toUpperCase();
+      resultado.innerText = resMaiusculo; 
+    }
 } modificar();
 
 //  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
-        
+  function conteudo(){
+    console.log(document.getElementsByTagName('p'));
+  } conteudo();
     </script>
   </body>
-</html>
+</html> 
