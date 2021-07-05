@@ -1,0 +1,48 @@
+*{
+    margin: 10px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cabecalho{
+    background-color:darkgray;
+    text-align: center;
+
+}
+.cabecalho ul {
+    background-color: aliceblue;
+
+}
+
+ul li{
+    display: inline-block;
+    padding-right: 100px;
+}
+nav a{
+    text-decoration: none;
+}
+.espaçamento{
+    padding-left: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.vejaVideo{
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+table {
+    float: right;
+    margin-right: 200px;
+}
+th{
+    background-color: aliceblue;
+}
+td{
+   border-bottom: 1px solid black;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
