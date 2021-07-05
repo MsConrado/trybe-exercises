@@ -107,10 +107,20 @@
         mainContent.appendChild(h3)
       }
 
-
       // Agora que você criou muita coisa, vamos fazer algumas alterações e remoções:
       // 1 Adicione a classe title na tag h1 criada;
       h1.className = 'title';
+
+            // 2  Adicione a classe description nas 3 tags h3 criadas;
+      // mainContent.lastElementChild.className = 'description';
+      // mainContent.lastElementChild.previousElementSibling.className = 'description';
+      // mainContent.lastElementChild.previousElementSibling.previousElementSibling.className = 'description';
+
+      let listaH3 = document.getElementsByTagName('h3');
+      for (const iterator of listaH3) {
+        iterator.className = 'description'
+      }
+      
     </script>
   </body>
 </html>
