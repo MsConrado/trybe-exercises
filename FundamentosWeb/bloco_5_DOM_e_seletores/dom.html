@@ -93,6 +93,13 @@
       smallImage.className = 'small-image'
       leftContent.appendChild(smallImage)
 
+      / 8 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso como valores da lista. Essa lista deve ser filha do div criado no passo 6;
+      let listaNaoOrdenada = document.createElement('ol')
+      for(let index = 0; index < 10;index +=1 ){
+      let valoresLista = document.createElement('li')
+      listaNaoOrdenada.appendChild(valoresLista)
+      }
+      rightContent.appendChild(listaNaoOrdenada)
     </script>
   </body>
 </html>
