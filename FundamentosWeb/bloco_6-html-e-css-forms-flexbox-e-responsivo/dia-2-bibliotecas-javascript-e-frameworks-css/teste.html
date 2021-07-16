@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <title>Pikaday - ranges example</title>
+    <meta name="author" content="Maxime Thirouin">
+    <link rel="stylesheet" href="node_modules/pikaday/css/pikaday.css">
+</head>
+<body>
+    
+    <label for="datepicker">Date:</label>
+    <br />
+    2 months <input type="text" id="datepicker-2months">
+    <br />
+    3 months, main aligned to right <input type="text" id="datepicker-3months-right">
+
+    
+    <script src="node_modules/pikaday/pikaday.js"></script>
+    <script>
+
+    var picker2months = new Pikaday(
+    {
+        numberOfMonths: 2,
+        field: document.getElementById('datepicker-2months'),
+        firstDay: 1,
+        minDate: new Date(2000, 0, 1),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000, 2020]
+    });
+
+    var picker3monthsRight = new Pikaday(
+    {
+        numberOfMonths: 3,
+        mainCalendar: 'right',
+        field: document.getElementById('datepicker-3months-right'),
+        firstDay: 1,
+        minDate: new Date(2000, 0, 1),
+        maxDate: new Date(2020, 12, 31),
+        yearRange: [2000, 2020]
+    });
+
+    </script>
+</body>
+</html>
