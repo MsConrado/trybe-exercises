@@ -19,7 +19,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 04:  Introdução à JavaScript e Lógica de Programação
 
-Bloco 05:  JavaScript: DOM, Eventos e Web Storage
+- [X] Bloco 05:  JavaScript: DOM, Eventos e Web Storage
 
 Bloco 06:  HTML e CSS: Forms, Flexbox e Responsivo
 
