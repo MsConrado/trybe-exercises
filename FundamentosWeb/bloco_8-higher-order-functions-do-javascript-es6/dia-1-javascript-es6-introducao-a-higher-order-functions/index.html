@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Projeto Trybewarts</title>
+</head>
+
+<body>
+  <header class="header">
+    <img width="60px" src="images/trybewarts-header-logo.svg" alt="Logotipo trybewarts-header-logo"
+      class="trybewarts-header-logo">
+
+    <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+    <form class="trybewarts-login">
+      <input class="form-control" type="email" name="login" id="login" placeholder="Login">
+      <input class="form-control" type="password" name="senha" id="senha" placeholder="Senha">
+      <button class="btn btn-primary mb-3" id="btn-logar">Logar</button>
+    </form>
+  </header>
+  <br>
+  <main id="container">
+    <form id='evaluation-form'>
+      <div id="nome-sobrenome">
+        <input class="form-control" type="text" name="input-name" id="input-name" placeholder="Nome">
+        <input class="form-control" type="text" name="input-lastname" id="input-lastname" placeholder="Sobrenome">
+      </div>
+
+      <div id="email-casa">
+        <input class="form-control" type="email" name="input-email" id="input-email" placeholder="Email">
+        <label class="fw-bolder " for="house">Casa: </label>
+        <select class="form-select" name="casas" id="house">
+          <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+          <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+          <option id="corvinode-house" value="Corvinode">Corvinode</option>
+          <option id="pytherina-house" value="Pytherina">Pytherina</option>
+        </select>
+      </div> <br>
+      <hr>
+
+      <section id='container-familia'>
+        <div class="collum">
+          <label class="fw-bolder" id="label-family" for="">Qual sua família?</label>
+          <label for="frontend">
+            <input class="form-check-input" type="radio" name="family" value="Frontend" id="frontend"> Frontend
+          </label>
+          <label for="backend">
+            <input class="form-check-input" type="radio" name="family" value="Backend" id="backend"> Backend
+          </label>
+          <label for="fullstack">
+            <input class="form-check-input" type="radio" name="family" value="FullStack" id="fullstack">
+            FullStack
+          </label>
+        </div>
+
+        <div class="conteudo">
+          <label class="fw-bolder" id="label-content" for="">Qual conteúdo você está com mais vontade de
+            aprender?</label> <br>
+          <input class='subject form-check-input' type="checkbox" value="HoFs" name="hofs" id="hofs">
+          <label for="hofs">HoFs</label>
+          <input class='subject form-check-input' type="checkbox" value="Jest" name="jest" id="jest">
+          <label for="jest">Jest</label>
+          <input class='subject form-check-input' type="checkbox" value="Promises" name="promises" id="promises">
+          <label for="promises">Promises</label>
+          <input class='subject form-check-input' type="checkbox" value="React" name="react" id="react">
+          <label for="react">React</label>
+          <input class='subject form-check-input' type="checkbox" value="SQL" name="sql" id="sql">
+          <label for="sql">SQL</label>
+          <input class='subject form-check-input' type="checkbox" value="Python" name="python" id="python">
+          <label for="python">Python</label>
+        </div>
+      </section>
+      <br>
+      <hr>
+      <section>
+        <div class="avaliacao">
+          <label class="fw-bolder" id="label-rate" for="">Como você avalia a Trybewarts?</label>
+          <input class="form-check-input" type="radio" name="rate" id="um" value="1">
+          <label for="um">1</label>
+          <input class="form-check-input" type="radio" name="rate" id="dois" value="2">
+          <label for="dois">2</label>
+          <input class="form-check-input" type="radio" name="rate" id="tres" value="3">
+          <label for="tres">3</label>
+          <input class="form-check-input" type="radio" name="rate" id="quatro" value="4">
+          <label for="quatro">4</label>
+          <input class="form-check-input" type="radio" name="rate" id="cinco" value="5">
+          <label for="cinco">5</label>
+          <input class="form-check-input" type="radio" name="rate" id="seis" value="6">
+          <label for="seis">6</label>
+          <input class="form-check-input" type="radio" name="rate" id="sete" value="7">
+          <label for="sete">7</label>
+          <input class="form-check-input" type="radio" name="rate" id="oito" value="8">
+          <label for="oito">8</label>
+          <input class="form-check-input" type="radio" name="rate" id="nove" value="9">
+          <label for="nove">9</label>
+          <input class="form-check-input" type="radio" name="rate" id="dez" value="10">
+          <label for="dez">10</label>
+        </div>
+        <br>
+        <label class="textarea form-control" for="textarea">Deixe seu comentário:<textarea class='form-control'
+            placeholder="Conte-nos um pouco sobre você..." name="textarea" placeholder="500" id="textarea" maxlength="500" cols="60"
+            rows="5"></textarea>
+          <span id="counter">500</span>
+        </label>
+        <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+        <input class='form-check-input' type="checkbox" name="" id="agreement">
+        <br>
+        <button class="btn btn-primary mb-3" type="submit" disabled id="submit-btn">Enviar</button>
+      </section>
+    </form>
+    <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logotipo trybewarts-colored" width="500px">
+  </main>
+
+  <footer>
+    <h5 class="fw-lighter">Direitos reservados à Trybewarts©</h5>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  background-color: rgb(50, 167, 145);
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+input {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+#btn-logar {
+  margin-top: 15px;
+  margin-right: 1em;
+}
+
+h1 {
+  color: white;
+  font-size: 3.2em;
+}
+
+#container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#nome-sobrenome {
+  display: flex;
+  flex-direction: row;
+  width: 99%;
+  justify-content: space-between;
+}
+
+#email-casa {
+  display: flex;
+  flex-direction: row;
+  width: 98.5%;
+  margin-top: 10px;
+}
+
+#container-familia {
+  display: flex;
+}
+
+.collum {
+  display: flex;
+  flex-direction: column;
+  margin-right: 6em;
+}
+
+#counter {
+  justify-content: flex-end;
+  display: flex;
+}
+
+footer {
+  background-color: rgb(194, 194, 194);
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding: 1em;
+}
+
