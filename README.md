@@ -7,7 +7,7 @@ Trybe é uma escola para pessoas que desejam construir uma carreira de sucesso e
 
 O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e outras linguagens e estruturas.
 
-## Módulo 1
+## Módulo 1 
 
 ### Fundamentos do Desenvolvimento Web
 
@@ -29,7 +29,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 09:  JavaScript Assíncrono e Promises
 
-Bloco 10:  Testes automatizados com Jest
+- [X] Bloco 10:  Testes automatizados com Jest
 
 ## Módulo 2
     
