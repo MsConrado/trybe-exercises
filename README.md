@@ -35,7 +35,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
     
 ### Desenvolvimento Front-end
     
-Bloco 11:  Introdução à React
+- [X] Bloco 11:  Introdução à React
 
 Bloco 12:  Componentes com Estado, Eventos e Formulários com React
 
