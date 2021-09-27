@@ -37,13 +37,13 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
     
 - [X] Bloco 11:  Introdução à React
 
-Bloco 12:  Componentes com Estado, Eventos e Formulários com React
+- [X] Bloco 12:  Componentes com Estado, Eventos e Formulários com React
 
-Bloco 13:  Ciclo de Vida de Componentes e React Router
+- [X] Bloco 13:  Ciclo de Vida de Componentes e React Router
 
-Bloco 14:  Metodologias Ágeis
+- [X] Bloco 14:  Metodologias Ágeis
 
-Bloco 15:  Testes automatizados com React Testing Library
+- [X] Bloco 15:  Testes automatizados com React Testing Library
 
 Bloco 16:  Gerenciamento de estado com Redux
 
