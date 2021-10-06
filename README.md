@@ -45,58 +45,58 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 15:  Testes automatizados com React Testing Library
 
-Bloco 16:  Gerenciamento de estado com Redux
+Bloco 15:  Gerenciamento de estado com Redux
 
-Bloco 17:  Projeto Jogo de Trivia
+Bloco 16:  Projeto Jogo de Trivia
 
-Bloco 18:  Context API e React Hooks
+Bloco 17:  Context API e React Hooks
 
-Bloco 19:  Projeto App de Receitas
+Bloco 18:  Projeto App de Receitas
 
 ## Módulo 3
     
 ### Desenvolvimento Back-end
   
-Bloco 20:  Introdução à SQL
+Bloco 19:  Introdução à SQL
 
-Bloco 21:  Funções SQL, Joins e Subqueries
+Bloco 20:  Funções SQL, Joins e Subqueries
 
-Bloco 22:  Normalização e Modelagem de Banco de Dados
+Bloco 21:  Normalização e Modelagem de Banco de Dados
 
-Bloco 23:  Introdução ao MongoDB
+Bloco 22:  Introdução ao MongoDB
 
-Bloco 24:  MongoDB: Updates Simples e Complexos
+Bloco 23:  MongoDB: Updates Simples e Complexos
 
-Bloco 25:  MongoDB: Aggregation Framework
+Bloco 24:  MongoDB: Aggregation Framework
 
-Bloco 26:  Introdução ao desenvolvimento Web com NodeJS
+Bloco 25:  Introdução ao desenvolvimento Web com NodeJS
 
-Bloco 27:  NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+Bloco 26:  NodeJS: Camada de Serviço e Arquitetura Rest e Restful
 
-Bloco 28:  Autenticação e Upload de Arquivos
+Bloco 27:  Autenticação e Upload de Arquivos
 
-Bloco 29:  Deployment
+Bloco 28:  Deployment
 
-Bloco 30:  Projeto Trybeer
+Bloco 29:  Projeto Trybeer
 
-Bloco 31:  Arquitetura: SOLID e ORM
+Bloco 30:  Arquitetura: SOLID e ORM
 
-Bloco 32:  Sockets
+Bloco 31:  Sockets
 
-Bloco 33:  Projeto Trybeer II
+Bloco 32:  Projeto Trybeer II
 
 ## Módulo 4
     
 ### Ciência da Computação
 
-Bloco 34:  Arquitetura de Computadores e Redes
+Bloco 33:  Arquitetura de Computadores e Redes
 
-Bloco 35:  Introdução à Python e Raspagem de Dados da Web
+Bloco 34:  Introdução à Python e Raspagem de Dados da Web
 
-Bloco 36:  Programação Orientada a Objetos e Padrões de Projeto
+Bloco 35:  Programação Orientada a Objetos e Padrões de Projeto
 
-Bloco 37:  Algoritmos e Estrutura de Dados
+Bloco 36:  Algoritmos e Estrutura de Dados
 
-Bloco 38:  Estrutura de Dados: Hash e Set
+Bloco 37:  Estrutura de Dados: Hash e Set
 
-Bloco 39:  Estrutura de Dados: Pilhas, Filas e Listas
+Bloco 38:  Estrutura de Dados: Pilhas, Filas e Listas
