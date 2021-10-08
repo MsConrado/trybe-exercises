@@ -29,7 +29,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 09:  JavaScript Assíncrono e Promises
 
-- [X] Bloco 10:  Testes automatizados com Jest
+- [X] Bloco 10:  Testes automatizados com Jest (ESSE BLOCO NAO EXISTE MAIS)
 
 ## Módulo 2
     
@@ -43,7 +43,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 14:  Metodologias Ágeis
 
-- [X] Bloco 15:  Testes automatizados com React Testing Library
+- [X] Bloco 15:  Testes automatizados com React Testing Library (BLOCO 10 NÃO EXISTE MAIS POR ISSO TEMOS 2 BLOCOS 15)
 
 Bloco 15:  Gerenciamento de estado com Redux
 
