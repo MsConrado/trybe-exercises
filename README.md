@@ -45,11 +45,11 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 15:  Testes automatizados com React Testing Library (BLOCO 10 NÃO EXISTE MAIS POR ISSO TEMOS 2 BLOCOS 15)
 
-Bloco 15:  Gerenciamento de estado com Redux
+- [X] Bloco 15:  Gerenciamento de estado com Redux
 
-Bloco 16:  Projeto Jogo de Trivia
+- [X] Bloco 16:  Projeto Jogo de Trivia
 
-Bloco 17:  Context API e React Hooks
+- [ ] Bloco 17:  Context API e React Hooks
 
 Bloco 18:  Projeto App de Receitas
 
