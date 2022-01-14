@@ -57,46 +57,46 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
     
 ### Desenvolvimento Back-end
   
-- [ ] Bloco 19:  Introdução à SQL
+- [X] Bloco 19:  Docker: Utilizando Containers
 
-- [ ] Bloco 20:  Funções SQL, Joins e Subqueries
+- [X] Bloco 20:  Introdução à SQL
 
-- [ ] Bloco 21:  Normalização e Modelagem de Banco de Dados
+- [X] Bloco 21:  Funções SQL, JOINs e Normalização
 
-- [ ] Bloco 22:  Introdução ao MongoDB
+- [ ] Bloco 22:  Introdução ao desenvolvimento Web com Node.js
 
-- [ ] Bloco 23:  MongoDB: Updates Simples e Complexos
+- [ ] Bloco 23:  Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
-- [ ] Bloco 24:  MongoDB: Aggregation Framework
+- [ ] Bloco 24:  Node.js: ORM e Autenticação
 
-- [ ] Bloco 25:  Introdução ao desenvolvimento Web com NodeJS
+- [ ] Bloco 25:  Deployment
 
-- [ ] Bloco 26:  NodeJS: Camada de Serviço e Arquitetura Rest e Restful
+- [ ] Bloco 26:  TypeScript
 
-- [ ] Bloco 27:  Autenticação e Upload de Arquivos
+- [ ] Bloco 27:  Programação Orientada a Objetos (POO) e SOLID
 
-- [ ] Bloco 28:  Deployment
+- [ ] Bloco 28:  Projeto - TFC - Trybe Futebol Clube
 
-- [ ] Bloco 29:  Projeto Trybeer
+- [ ] Bloco 29:  Introdução ao MongoDB
 
-- [ ] Bloco 30:  Arquitetura: SOLID e ORM
+- [ ] Bloco 30:  MongoDB: Updates Simples e Complexos
 
-- [ ] Bloco 31:  Sockets
+- [ ] Bloco 31:  MasterClass - VPS, CI/CD
 
-- [ ] Bloco 32:  Projeto Trybeer II
+- [ ] Bloco 32:  Projeto - App de Delivery
 
 ## Módulo 4
     
 ### Ciência da Computação
 
-- [ ] Bloco 33:  Arquitetura de Computadores e Redes
+- [ ] Bloco 33:  Introdução à Python
 
-- [ ] Bloco 34:  Introdução à Python e Raspagem de Dados da Web
+- [ ] Bloco 34:  Programação Orientada a Objetos e Padrões de Projeto
 
-- [ ] Bloco 35:  Programação Orientada a Objetos e Padrões de Projeto
+- [ ] Bloco 35:  Redes e Raspagem de Dados
 
-- [ ] Bloco 36:  Algoritmos e Estrutura de Dados
+- [ ] Bloco 36:  Algoritmos 
 
-- [ ] Bloco 37:  Estrutura de Dados: Hash e Set
+- [ ] Bloco 37:  Estrutura de Dados I: Arrays, Hashmaps e Sets
 
-- [ ] Bloco 38:  Estrutura de Dados: Pilhas, Filas e Listas
+- [ ] Bloco 38:  Estrutura de Dados II: Listas, Filas e Pilhas
