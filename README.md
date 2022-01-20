@@ -63,7 +63,7 @@ O currículo contém HTML, CSS, JavaScript, React, Node, Express.js, SQL, Git e 
 
 - [X] Bloco 21:  Funções SQL, JOINs e Normalização
 
-- [ ] Bloco 22:  Introdução ao desenvolvimento Web com Node.js
+- [X] Bloco 22:  Introdução ao desenvolvimento Web com Node.js
 
 - [ ] Bloco 23:  Node.js: Camada de Serviço e Arquitetura Rest e Restful
 
